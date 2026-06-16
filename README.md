@@ -195,6 +195,7 @@ Os desafios apresentados aqui têm como objetivo principal exercitar os conceito
 
 Entrega do Desafio
 
+DESAFIO 1
 
 # Leitura da entrada
 conceito = input().strip()
@@ -212,3 +213,103 @@ elif conceito == "Tópico":
 elif conceito == "Conectores":
     print("Integrações para conectar sistemas externos")
 
+
+Entrega do Desafio
+
+DESAFIO 2
+
+Descrição
+No Microsoft Copilot Studio, as respostas podem ser configuradas de diversas formas para fornecer informações úteis aos usuários. Este desafio ajudará a diferenciar os tipos de respostas utilizadas.
+
+Entrada
+Os seguintes tipos de respostas são abordados:
+
+"Resposta rápida"
+"Cartão adaptável"
+"Ação de chamada de API"
+"Texto formatado"
+Saída
+A saída esperada será uma breve descrição de cada tipo de resposta:
+
+"Exibe uma mensagem curta para resposta rápida"
+"Permite criar interfaces interativas no chatbot"
+"Executa uma requisição externa para obter dados"
+"Exibe texto com opções de formatação avançada"
+
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	              Saída
+Resposta rápida	       Exibe uma mensagem curta para resposta rápida
+Cartão adaptável	       Permite criar interfaces interativas no chatbot
+Ação de chamada de API	Executa uma requisição externa para obter dados
+
+Atenção: É extremamente importante que as entradas e saídas sejam exatamente iguais às descritas na descrição do desafio de código.
+
+Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.
+
+
+Python
+# Leitura da entrada
+resposta = input()
+
+# Mapeamento dos tipos de resposta para suas descrições
+if resposta == "Resposta rápida":
+    print("Exibe uma mensagem curta para resposta rápida")
+elif resposta == "Cartão adaptável":
+    print("Permite criar interfaces interativas no chatbot")
+elif resposta == "Ação de chamada de API":
+    print("Executa uma requisição externa para obter dados")
+elif resposta == "Texto formatado":
+    print("Exibe texto com opções de formatação avançada")
+
+
+
+DESAFIO 3
+
+Descrição
+As ações no Microsoft Copilot Studio permitem que um chatbot execute tarefas específicas, como chamar APIs ou manipular dados. Seu objetivo é associar cada ação à sua funcionalidade.
+
+Entrada
+Os seguintes tipos de ações serão considerados:
+
+"Ação de chamada de API"
+"Ação de lógica condicional"
+"Ação de armazenamento de variável"
+"Ação de loop"
+Saída
+A saída será uma breve explicação de cada ação:
+
+"Chama um serviço externo para buscar ou enviar dados"
+"Executa lógica baseada em condições definidas"
+"Salva informações temporárias para uso posterior"
+"Executa uma tarefa repetidamente até atender um critério"
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	                         Saída
+Ação de chamada de API	           Chama um serviço externo para buscar ou enviar dados
+Ação de lógica condicional	           Executa lógica baseada em condições definidas
+Ação de armazenamento de variável	    Salva informações temporárias para uso posterior
+
+Atenção: É extremamente importante que as entradas e saídas sejam exatamente iguais às descritas na descrição do desafio de código.
+
+Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.
+
+
+
+# Leitura da entrada
+acao = input().strip()
+
+# Mapeamento das ações para suas funcionalidades
+if acao == "Ação de chamada de API":
+    print("Chama um serviço externo para buscar ou enviar dados")
+    
+elif acao == "Ação de lógica condicional":
+    print("Executa lógica baseada em condições definidas")
+    
+elif acao == "Ação de armazenamento de variável":
+    print("Salva informações temporárias para uso posterior")
+    
+elif acao == "Ação de loop":
+    print("Executa uma tarefa repetidamente até atender um critério")
