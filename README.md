@@ -109,7 +109,12 @@ Para ler e escrever dados em Python, utilizamos as seguintes funções:
 def calcular_imposto (salario):
 aliquota = 0.00
 if (salario >= 0 and salario <= 1100):
-aliquota * salario
+aliquota = 0.05
+elif (salario >= 1100.01 and salario <= 1100):
+aliquota = 0.10
+else:
+aliquota = 0.15
+return aliquota * salario
 
     #Lê os valores de Entrada:
 valor_salario = float (input())
@@ -121,7 +126,31 @@ valor_imposto = calcular_imposto(valor_salario)
     #Calcular e imprime a Saída ( com 2 casas decimais):
 saida = valor_salario - valor_imposto + valor_beneficios
 print(f' {saida:.2f}')
-  
 
-    
+
+
+ # Simplificando a Orientação a Objetos com Kotlin 
+
+ object ReceitaFederal {
+  fun calcularImposto (salario: Double): Double {
+   val aliquota = when {
+    (salario >= 0 && salario <= 1100)  -> 0.05
+     (salario >= 1100.01 && salario <= 1100)  -> 0.05
+     else  -> TODO ("Criar as condições para as aliquotas de 10.00% e 15.00%")
+     }
+     return aliquota * salario
+        }
+     }
+     fun main() {
+val valorSalario = readLine()!!.toDouble();
+val valorBeneficios = readLine()!!.toDouble();
+
+val valorImposto = ReceitaFederal.calcularImposto(valorSalario);
+val saida = valorSalario -valorImposto + valorBeneficios;
+
+println (String.format("%.2f", saida));
+     }
+
+
+     
 
