@@ -67,3 +67,61 @@ public class Desafio
 
   
 #3º Desafio JavaScript
+
+    // nDesafio JavaScript na DIO tem funções "gets" e "print" acessiveis globalmente:
+    // - "gets": L~e UMA linha com dados(s) de entrada (inputs) do usuário;
+    // - "print": imprime um texto de saída (output), pulando linha.
+  
+     //Lê os valores de Entrada:
+  
+  const valorSalario = parseFloat (gets());
+  const valorBeneficios = parseFloat(gets());
+
+    // Calcula o imposto através da função "calcularImposto":
+const valorImposto = calcularImposto(valorSalario);
+
+    // Calcula e imprime a Saída (com 2 casas decimais):
+ const saida = valorSalario - valorImposto + valorBeneficios;
+ print (saida.toFixed(2));
+  
+    // Função útil para o calculo do imposto (baseado nas aliquotas).
+    
+function calcularImposto(salario) {
+Let aliquota;
+if (salario >= 0 && salario <= 1100) {
+aliquota = 0.05;
+}
+
+    //TODO Criar as demais condições para as aliquotas de 10.00% e 15.00%.
+return aliquota * salario;
+}
+
+
+
+#4º Desafio Python
+
+Para ler e escrever dados em Python, utilizamos as seguintes funções:
+- input: Lê UMA linha com dado (s) de Entrada do usuário;
+- print: imprime um texto de Saída (Output), pulando linha.
+
+
+      #Função útil para o calculo do imposto (baseado nas aliquotas).
+def calcular_imposto (salario):
+aliquota = 0.00
+if (salario >= 0 and salario <= 1100):
+aliquota * salario
+
+    #Lê os valores de Entrada:
+valor_salario = float (input())
+valor_beneficios = float(input())
+
+    #Calcula o imposto através da função "calcular_imposto":
+valor_imposto = calcular_imposto(valor_salario)
+
+    #Calcular e imprime a Saída ( com 2 casas decimais):
+saida = valor_salario - valor_imposto + valor_beneficios
+print(f' {saida:.2f}')
+  
+
+    
+
