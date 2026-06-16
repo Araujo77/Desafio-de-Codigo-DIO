@@ -152,5 +152,63 @@ println (String.format("%.2f", saida));
      }
 
 
+
+DESAFIO PROPOSTO (FINAL)
+
+Descrição
+O Microsoft Copilot Studio é uma plataforma de criação de assistentes virtuais (bots) com IA generativa, permitindo a automação de processos e a criação de interações naturais com os usuários. Ele combina o poder do Microsoft Copilot com personalizações específicas para empresas.
+
+Neste desafio, você deve associar conceitos do Microsoft Copilot Studio às suas descrições.
+
+Saiba mais em Microsoft Learn: Microsoft Copilot Studio
+
+Entrada
+A entrada consistirá em um conceito relacionado ao Microsoft Copilot Studio, para o qual você deve retornar a descrição correspondente.
+
+Os conceitos válidos são:
+
+"Copilot"
+"Fluxo de conversação"
+"Tópico"
+"Conectores"
+Saída
+A saída esperada é a descrição associada ao conceito. Seguem as possíveis respostas:
+
+"Assistente de IA que interage por meio de conversação"
+"Estrutura de diálogo que orienta as interações"
+"Bloco de construção de um chatbot no Copilot Studio"
+"Integrações para conectar sistemas externos"
+
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	           Saída
+Copilot	           Assistente de IA que interage por meio de conversação
+Fluxo de conversação	    Estrutura de diálogo que orienta as interações
+Tópico	                  Bloco de construção de um chatbot no Copilot Studio
+
+Atenção: É extremamente importante que as entradas e saídas sejam exatamente iguais às descritas na descrição do desafio de código.
+
+Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.
      
+
+
+Entrega do Desafio
+
+
+# Leitura da entrada
+conceito = input().strip()
+
+# Mapeamento dos conceitos para suas descrições
+if conceito == "Copilot":
+    print("Assistente de IA que interage por meio de conversação")
+    
+elif conceito == "Fluxo de conversação":
+    print("Estrutura de diálogo que orienta as interações")
+    
+elif conceito == "Tópico":
+    print("Bloco de construção de um chatbot no Copilot Studio")
+    
+elif conceito == "Conectores":
+    print("Integrações para conectar sistemas externos")
 
