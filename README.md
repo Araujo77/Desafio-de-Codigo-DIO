@@ -1,4 +1,4 @@
-#1º Desafio JAVA
+# 1º Desafio JAVA
 
        // new Scanner (System.in): criar um leitor de Enrtadas, com métodos úteis com prefixo "next";
        // System.out.println:. imprime um texto de Saída (Output) e pulando uma linha.
@@ -33,7 +33,7 @@ public class Desafio {
     }
 
 
-#2º Desafio C#
+# 2º Desafio C#
 
 using System;
 
@@ -67,7 +67,7 @@ public class Desafio
     }
 
   
-#3º Desafio JavaScript
+# 3º Desafio JavaScript
 
     // nDesafio JavaScript na DIO tem funções "gets" e "print" acessiveis globalmente:
     // - "gets": L~e UMA linha com dados(s) de entrada (inputs) do usuário;
@@ -99,7 +99,7 @@ return aliquota * salario;
 
 
 
-#4º Desafio Python
+# 4º Desafio Python
 
 Para ler e escrever dados em Python, utilizamos as seguintes funções:
 - input: Lê UMA linha com dado (s) de Entrada do usuário;
@@ -154,7 +154,7 @@ println (String.format("%.2f", saida));
 
 
 
-DESAFIO PROPOSTO (FINAL)
+# DESAFIO PROPOSTO (FINAL)
 
 Descrição
 O Microsoft Copilot Studio é uma plataforma de criação de assistentes virtuais (bots) com IA generativa, permitindo a automação de processos e a criação de interações naturais com os usuários. Ele combina o poder do Microsoft Copilot com personalizações específicas para empresas.
@@ -194,9 +194,9 @@ Os desafios apresentados aqui têm como objetivo principal exercitar os conceito
      
 
 
-Entrega do Desafio
+# Entrega do Desafio
 
-DESAFIO 1
+## DESAFIO 1
 
 # Leitura da entrada
 conceito = input().strip()
@@ -215,9 +215,9 @@ elif conceito == "Conectores":
     print("Integrações para conectar sistemas externos")
 
 
-Entrega do Desafio
+# Entrega do Desafio
 
-DESAFIO 2
+## DESAFIO 2
 
 Descrição
 No Microsoft Copilot Studio, as respostas podem ser configuradas de diversas formas para fornecer informações úteis aos usuários. Este desafio ajudará a diferenciar os tipos de respostas utilizadas.
@@ -250,8 +250,9 @@ Atenção: É extremamente importante que as entradas e saídas sejam exatamente
 Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.
 
 
-Python
-# Leitura da entrada
+# Python
+
+## Leitura da entrada
 resposta = input()
 
 # Mapeamento dos tipos de resposta para suas descrições
@@ -266,7 +267,7 @@ elif resposta == "Texto formatado":
 
 
 
-DESAFIO 3
+## DESAFIO 3
 
 Descrição
 As ações no Microsoft Copilot Studio permitem que um chatbot execute tarefas específicas, como chamar APIs ou manipular dados. Seu objetivo é associar cada ação à sua funcionalidade.
