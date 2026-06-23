@@ -198,8 +198,10 @@ Os desafios apresentados aqui têm como objetivo principal exercitar os conceito
 
 ## DESAFIO 1
 
-# Leitura da entrada
-conceito = input().strip()
+
+    \\ Leitura da entrada
+    conceito = input().strip()
+
 
 # Mapeamento dos conceitos para suas descrições
 if conceito == "Copilot":
