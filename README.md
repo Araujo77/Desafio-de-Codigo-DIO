@@ -26,6 +26,7 @@ public class Desafio {
     
 
     // Calcula e imprime a Saída (com 2 casas decimais)
+    
     float saida = valorSalario - valorImposto + valorBeneficios;
     System.out.println(String.format("%.2f", saida ));
     }
