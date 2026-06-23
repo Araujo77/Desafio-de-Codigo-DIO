@@ -254,8 +254,8 @@ Os desafios apresentados aqui têm como objetivo principal exercitar os conceito
 
 # Python
 
-## Leitura da entrada
-resposta = input()
+    \\ Leitura da entrada
+    resposta = input()
 
 # Mapeamento dos tipos de resposta para suas descrições
 if resposta == "Resposta rápida":
@@ -302,8 +302,8 @@ Os desafios apresentados aqui têm como objetivo principal exercitar os conceito
 
 
 
-# Leitura da entrada
-acao = input().strip()
+    \\ Leitura da entrada
+    acao = input().strip()
 
 # Mapeamento das ações para suas funcionalidades
 if acao == "Ação de chamada de API":
