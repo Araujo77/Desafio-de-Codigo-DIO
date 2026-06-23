@@ -59,7 +59,7 @@ public class Desafio
     valorImposto = 0.15F * valorSalario;
     }
 
-  // Calcula e imprime a Saída (com 2 casas decimais)
+    // Calcula e imprime a Saída (com 2 casas decimais)
     float saida = valorSalario - valorImposto + valorBeneficios;
     Console.WriteLine(saida.ToString("0.00"));
     }
